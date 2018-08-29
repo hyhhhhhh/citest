@@ -31,4 +31,4 @@ jobs:
            pwd
            ls
            go test -cover
-           bash <(curl -s https://codecov.io/bash) -t ddab3302-5ac4-471c-9e9c-370212fc909c
+           bash <(curl -s https://codecov.io/bash) 
