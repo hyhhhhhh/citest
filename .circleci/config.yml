@@ -30,3 +30,4 @@ jobs:
            go version
            pwd
            ls
+           bash <(curl -s https://codecov.io/bash) -t ddab3302-5ac4-471c-9e9c-370212fc909c
