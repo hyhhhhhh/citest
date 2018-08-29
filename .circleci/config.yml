@@ -30,6 +30,6 @@ jobs:
            go version
            pwd
            ls
-           go test -cover
+           go test -race -coverprofile=coverage.txt -covermode=atomic
       - run: bash <(curl -s https://codecov.io/bash)
 
