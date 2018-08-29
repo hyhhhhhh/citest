@@ -27,10 +27,6 @@ jobs:
          command: |
            echo 'Hello World!'
            go version
-           go test -race -coverprofile=coverage.txt -covermode=atomic
-           ls
-           cd testfile 
-           go test -race -coverprofile=coverage.txt -covermode=atomic
+           go test -race -coverprofile=coverage.txt -covermode=atomic ./..
            ls
       - run: bash <(curl -s https://codecov.io/bash)
-
