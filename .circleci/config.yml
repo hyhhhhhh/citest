@@ -31,4 +31,7 @@ jobs:
            pwd
            ls
            go test -cover
-           bash <(curl -s https://codecov.io/bash) 
+  test:
+    post:
+      - bash <(curl -s https://codecov.io/bash)
+
