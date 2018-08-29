@@ -1,6 +1,6 @@
 package example
 
-import "github.com/codecov/example-go/awesome"
+import "github.com/hyhhhhhh/citest/awesome"
 
 var result string
 
